@@ -1,0 +1,23 @@
+{
+  "version": 1,
+  "weights": {
+    "technical_fit": 20,
+    "customer_facing_fit": 20,
+    "seniority_fit": 10,
+    "location_fit": 15,
+    "remote_hybrid_fit": 10,
+    "salary_fit": 10,
+    "relocation_visa_fit": 5,
+    "company_domain_fit": 10
+  },
+  "locations": ["Paris / Île-de-France", "London / UK", "Dublin / Ireland", "Berlin / Germany", "Amsterdam / Netherlands", "Remote France", "Remote EU", "Relocation required", "Other"],
+  "candidate_profile": {
+    "target_roles": ["Solutions Engineer", "Sales Engineer", "Solutions Architect", "Technical Account Manager"],
+    "target_seniority": ["mid", "senior"],
+    "preferred_work_models": ["remote", "hybrid"],
+    "preferred_regions": ["France", "EU", "UK"],
+    "technical_strengths": ["APIs", "cloud", "automation", "data", "Python", "JavaScript", "integration architecture"],
+    "customer_facing_strengths": ["discovery", "technical demos", "proofs of concept", "stakeholder communication", "value articulation"]
+  },
+  "recommendation_rules": {"apply_now_min": 80, "worth_reviewing_min": 65, "review_below": 65, "hard_flags": ["visa required", "salary missing", "location mismatch", "expired listing"]}
+}
